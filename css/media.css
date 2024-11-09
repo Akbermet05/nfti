@@ -1,0 +1,18 @@
+@media (max-width: 1046px) {
+  #header.container {
+    padding-inline: 60px;
+  }
+  .container {
+    padding-inline: 60px;
+  }
+
+  .main-image .fon {
+  }
+}
+
+@media (max-width: 985px) {
+  .work-block .work-small {
+    width: 100%;
+    max-width: 74px;
+  }
+}

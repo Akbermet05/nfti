@@ -5,8 +5,7 @@
   font-family: Work Sans, sans-serif;
   text-decoration: none;
   cursor: pointer;
-  /* outline: 1px solid blue;
-   */
+  outline: 1px solid blue;
 }
 h3 {
   font-family: Space Mono, sans-serif;
@@ -141,10 +140,10 @@ nav button {
 }
 .main-rating h2 {
   font-family: Space Mono, sans-serif;
-  font-size:14px;
+  font-size: 30px;
 }
 .main-rating h2 span {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -180,7 +179,7 @@ nav button {
   content: url("../image/before-ava.svg");
 }
 
-/* #work {
+#work {
   padding-block: 50px;
 }
 .work-title {
@@ -193,20 +192,27 @@ nav button {
 .work-title .plan-title,
 .categoti-title,
 h1 {
-  font-size: clamp(1.563rem, 1.279rem + 1.42vw, 2.5rem);
-  font-weight: 400;
+  font-size: 50px;
+  font-weight: 600;
 }
 .work-title .plan-title,
 p {
-  font-size: clamp(0.938rem, 0.805rem + 0.66vw, 1.375rem);
-  font-weight: 200;
+  font-size: 20px;
+  font-weight: 400;
 }
+
 .work-block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
-  max-width: 500px;
+  /* max-width: 500px; */
+}
+.work-block1,.work-block2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
 }
 .work-block .work-big {
   width: 100%;
@@ -217,22 +223,24 @@ p {
 }
 .work-box {
   display: flex;
+  gap: 12px;
   max-width: 264px;
   width: 100%;
-  gap: 12px;
 }
 .work-bottom {
   display: flex;
   gap: 10px;
 }
-.work-block h1 {
-  font-size: clamp(0.875rem, 0.762rem + 0.57vw, 1.25rem);
+.work-block,.work-block1,.work-block2, h2 {
+  font-size: 20px;
 }
 .work {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
+/* }
 #plan {
   padding-block: 60px;
 }
@@ -521,8 +529,8 @@ p {
 .hero-top {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  /* align-items: center; */
+  align-items: flex-end; */
+/* align-items: center; */
 /* } */
 /* #card {
   padding-block: 60px;

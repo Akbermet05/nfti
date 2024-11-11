@@ -42,13 +42,13 @@ p {
   width: 100%;
   max-width: 1540px;
   margin-inline: auto;
-  /* padding-inline: 50px; */
+  padding-inline: 50px;
 }
 .container {
   width: 100%;
   max-width: 1540px;
   margin-inline: auto;
-  /* padding-inline: 80px; */
+  padding-inline: 80px;
   /*падинг минимальный 30пх */
 }
 .header {
@@ -56,6 +56,7 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -101,14 +102,15 @@ nav button {
   align-items: flex-start;
 }
 .main-text h1 {
-  /* font-size: clamp(1.5rem, 0.821rem + 3.4vw, 3.75rem); */
   max-width: 400px;
   font-size: 60px;
   font-weight: 600;
 }
 .main-text p {
+  max-width: 420px;
   font-size: clamp(0.813rem, 0.718rem + 0.47vw, 1.125rem);
   line-height: 30px;
+  font-weight: 400;
 }
 .main-text button {
   background: rgba(162, 89, 255, 1);
@@ -123,10 +125,13 @@ nav button {
 }
 .main-image2 {
   display: none;
-  background-color:black ;
+  background-color: rgba(228, 223, 223, 0.215);
   max-height: 350px;
-  max-width: 330px;
-  border-radius: 15px;
+  max-width: 325px;
+  border-radius: 20px;
+}
+.main-image2 h1 {
+  font-size: 20px;
 }
 .main-rating {
   width: 95%;
@@ -136,10 +141,10 @@ nav button {
 }
 .main-rating h2 {
   font-family: Space Mono, sans-serif;
-  font-size: clamp(1rem, 0.849rem + 0.75vw, 1.5rem);
+  font-size:14px;
 }
 .main-rating h2 span {
-  font-size: clamp(1rem, 0.887rem + 0.57vw, 1.375rem);
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -161,7 +166,7 @@ nav button {
   flex-direction: column;
   gap: 10px;
 }
-.main-content_image h1 {
+.main-content_image h4 {
   font-size: clamp(0.875rem, 0.762rem + 0.57vw, 1.25rem);
 }
 
